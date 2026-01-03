@@ -1,0 +1,7 @@
+<svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 396 213">
+  <path d="M.5.5h395v212H.5z" id="background"/>
+  <path id="leftRight" fill="#fff" d="M25 19h20v111H25zm332 61h20v111h-20z"/>
+  <g fill="#fff" transform="translate(102 77)">
+    <circle cx="15" cy="15" r="15"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 396 213">
+  <path d="M0 0h396v213H0z" id="background"/>
+  <path fill="#fff" d="M25 88h20v111H25z" id="left"/>
+  <circle cx="15" cy="15" r="15" fill="#fff" transform="translate(274 92)" id="ball"/>
+  <g id="right">
+    <text fill="#fff" font-family="Arial" font-size="38" transform="translate(350 55)"><tspan x="8" y="41">?</tspan></text>
+    <path fill="none" stroke="#fff" d="M358.5 25.5h20v110h-20z"/>
+  </g>
+</svg>

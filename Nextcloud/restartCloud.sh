@@ -1,0 +1,2 @@
+./stopCloud.sh
+./startCloud.sh

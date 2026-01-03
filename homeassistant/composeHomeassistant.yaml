@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - /mnt/raid1/homeassistant:/config # Config on RAID1
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro # enables D-Bus access if needed
+    environment:
+      - TZ=Europe/Berlin # set your timezone
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+
+  matter-server:
+    image: ghcr.io/home-assistant-libs/python-matter-server:stable
+    container_name: matter-server
+    network_mode: host
+    environment:
+      - MATTER_SERVER_PORT=5580
+    volumes:
+      - /mnt/raid1/matter:/data     # Persistenz auf RAID
+    restart: unless-stopped
+
+  otbr:
+    image: openthread/otbr:latest
+    container_name: otbr
+    network_mode: host
+    privileged: true
+    devices:
+      - /dev/serial/by-id/usb-Itead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_V2_a21bfd3fddc2ef11879bedb08048b910-if00-port0:/dev/ttyUSB0 # Sonoff Zigbee 3.0 USB Dongle Plus V2
+      - /dev/net/tun:/dev/net/tun # REQUIRED for virtual network interface
+    volumes:
+      - /mnt/raid1/otbr:/var/lib/thread # Persistenz auf RAID
+    environment:
+      - OTBR_REST_LISTEN_PORT=8081    # HA looks for this port
+      - WEB_GUI=0                      # Disable web UI
+      - AUTOFLASH_FIRMWARE=0           # Don't auto-flash firmware
+      - FLOW_CONTROL=0                 # No hardware flow control
+      - BACKBONE_IFNAME=eth0
+      - RADIO_URL=spinel+hdlc+uart:///dev/ttyUSB0?uart-baudrate=460800
+    restart: unless-stopped

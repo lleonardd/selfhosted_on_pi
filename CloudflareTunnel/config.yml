@@ -1,0 +1,13 @@
+tunnel: 0bde0ebb-846c-4e97-acab-771267f2a0da
+credentials-file: /root/.cloudflared/0bde0ebb-846c-4e97-acab-771267f2a0da.json
+
+ingress:
+  # - hostname: pong.lsche.de
+  #   service: http://hsPongWeb:81 
+  # - hostname: pongws.lsche.de
+  #   service: ws://hsPong:9160
+  - hostname: ncloud.lsche.de
+    service: https://nextcloud-app:80
+  - hostname: hs.lsche.de
+    service: http://localhost:8123
+  - service: http_status:404

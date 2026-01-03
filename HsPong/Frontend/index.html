@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Haskell WebSocketPong</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <h1>Pong</h1>
+
+    <!-- Menu -->
+    <div id="ui">
+        <nav class="mainNav">
+            <div id="quick" onclick="client.quickplay()" class="hoverLine">
+                <img src="./images/random.svg" alt="Quickplay Image">
+                <h2>Quickplay</h2>
+                <p>Random Enemy</p>
+            </div>
+            <div id="comp" onclick="client.competitive()" class="hoverLine">
+                <img src="./images/room.svg" alt="Quickplay Image">
+                <h2>Competitive</h2>
+                <p>Against your friends</p>
+                <div class="hidden" id="roomCodeArea">
+                    <p>
+                        <input type="text" name="link" id="link" readonly>
+                        <input type="button" name="copy" id="copy" value="Copy">
+                    </p>
+                    <p>
+                        Code: <strong id="gameId"></strong><br>
+                        OR <br>
+                        <input type="text" name="givenCode" id="givenCode" placeholder="Given code here">
+                        <input type="button" name="join" id="join" value="Join">
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="ingame" class="hidden">
+        <div>
+            <p>Score <span id="s0">0</span>:<span id="s1">0</span></p>
+            <canvas width="2000px" height="1000px" id="canvas">Your browser doesn't support html canvas</canvas>
+        </div>
+        <h3 id="info">Contacting Server...</h3>
+        <!-- Input for mobile devices -->
+        <input type="range" step="1" name="slideInput" id="slideInput" class="float bottom center">
+    </div>
+
+    <!-- Home Button -->
+    <a href="#" onclick="client.reload()" class="float top left hidden" id="home">⬅Home</a>
+
+    <!-- Help Button -->
+    <a href="#" onclick="setHelpText(true)" class="float bottom left" id="helpBtn">
+        <img src="./images/helpIcon.svg" alt="Help icon" width="50px">
+    </a>
+    <div class="helpText float bottom left" id="helpText">
+        <a href="#" onclick="setHelpText(false)">✖</a>
+        <h2>How to Play</h2>
+        <h3>Pc:</h3>
+        <p>Hover your mouse over the playing field to move your racket.</p>
+        <p><strong>Alternatively</strong>, you can use <em>arrow up(⬆)</em> or <em>arrow down(⬇)</em> on your Keyboard<br></p>
+        <h3>Phone:</h3>
+        <p>Use the slider to control your racket.</p>
+    </div>
+    
+    <script src="./js/pongGame.js"></script>
+    <script src="./js/client.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

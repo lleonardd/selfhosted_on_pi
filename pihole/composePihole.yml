@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    ports:
+      # DNS Ports
+      - "53:53/tcp"
+      - "53:53/udp"
+      # HTTP Port for Web Interface
+      - "8080:80/tcp"
+      # HTTPS Port
+      - "8443:443/tcp"
+      # Uncomment if using Pi-hole as DHCP server
+      #- "67:67/udp"
+    environment:
+      - TZ=${TZ}
+      # Admin password loaded from .env file
+      - FTLCONF_webserver_api_password=${PIHOLE_ADMIN_PASSWORD}
+      # Required for Docker bridge network
+      - FTLCONF_dns_listeningMode=${DNS_LISTENING_MODE}
+      # Optional: Set upstream DNS servers (semicolon separated)
+      # - FTLCONF_dns_upstreams=${UPSTREAM_DNS}
+    volumes:
+      # Persist Pi-hole configuration and data
+      - /mnt/raid1/pihole/etc-pihole:/etc/pihole
+      # Optional: Persist dnsmasq config (needed for v5 to v6 migration)
+      # - /mnt/raid1/pihole/etc-dnsmasq.d:/etc/dnsmasq.d
+    cap_add:
+      # Required for DHCP (if using)
+      - NET_ADMIN
+      # Optional: Better process priority
+      - SYS_NICE
+    restart: unless-stopped

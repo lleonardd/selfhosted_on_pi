@@ -1,0 +1,51 @@
+version: '3.3'
+
+services:
+  nextcloud-db:
+    image: yobasystems/alpine-mariadb
+    restart: always
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
+    container_name: nextcloud-db
+    networks:
+      - expose
+    volumes:
+      - db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD
+      - MYSQL_PASSWORD
+      - MYSQL_DATABASE
+      - MYSQL_USER
+
+  nextcloud-app:
+    image: nextcloud
+    container_name: nextcloud-app
+    restart: always
+    networks:
+      - expose
+    ports:
+      - 80:80
+    depends_on:
+      - nextcloud-db
+    links:
+      - nextcloud-db:nextcloud-db
+    volumes:
+      - nextcloud:/var/www/html
+      - /mnt/raid1/nextcloudData:/var/www/html/data
+    environment:
+      - MYSQL_PASSWORD
+      - MYSQL_DATABASE
+      - MYSQL_USER
+      - MYSQL_HOST=nextcloud-db
+      - PHP_UPLOAD_LIMIT=8G
+      - PHP_MEMORY_LIMIT=8G
+
+volumes:
+  nextcloud:
+  db:
+
+networks:
+  expose:
+    name: expose
+    driver: bridge
+
+

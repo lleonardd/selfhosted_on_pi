@@ -1,0 +1,747 @@
+Stopping nextcloud-app ... 
+Stopping nextcloud-db  ... 
+Stopping nextcloud-app ... done
+Stopping nextcloud-db  ... done
+Removing nextcloud-app ... 
+Removing nextcloud-db  ... 
+Removing nextcloud-app ... done
+Removing nextcloud-db  ... done
+Removing network expose
+error while removing network: network expose id 790a33ef7514b22cd8441a200af1e814aa6028ad9c374823ca9e9c8e456915a6 has active endpoints
+Untagged: nextcloud:latest
+Untagged: nextcloud@sha256:8cb1dc8c26944115469dd22f4965d2ed35bab9cf8c48d2bb052c8e9f83821ded
+Deleted: sha256:90f6d5cb50302148d18bbb0e418fb8cc6b66cf99f8a9bf27f3debb17a16db7ea
+Deleted: sha256:d50ea979c1a02246aa979d9adffcbb3274339b182fb9e622eb7c40aa13b3d231
+Deleted: sha256:d39f6075707bcbf52b6eaa10101e2ebaa5dc84555167f1fcff79203cc501cc5e
+Deleted: sha256:35cdfd16af08c122bab7dd3d5a4e1a2f042fd148a686023881a569e25ea49223
+Deleted: sha256:d9b49c2da8e04b4989e31442f7dc32c130f6e673b299b4337ed738b645a9a60c
+Deleted: sha256:c0c37d631a76f0721ca0bb51d7b302e0fee0a293cec6c4ee22aada092ad47107
+Deleted: sha256:193e2d4b4ba5f34a90350635d2291a49aa6a3d27483522a198d1ec4622bb093e
+Deleted: sha256:3084e2e167818e996182043b25867d98e940866243f95ce2261d66146ade62de
+Deleted: sha256:64b66babd81eed2554572c61e195bf414474fc2c524efef50525e38666990f01
+Deleted: sha256:7c90f76e98038667b81aa0bdd372a424b1d0f906393750200036a4dabdad2fb5
+Deleted: sha256:87c387c1b7dd6255d00d82a1a09b6386e43a3fbe225c590cc02cedbec091145d
+Deleted: sha256:76a6bf909e42e21123e0f94930c422df10dde9671daabc1326557b1c1ccfca7e
+Deleted: sha256:d3e5ab6689c1d4d871a399024308eeaf4135192cc6967d5e3d74917a6f2be7a6
+Deleted: sha256:6183d110a025d60d73f0f68c33ab31051d58c0cf03f2b6b3178eaeeab127e25b
+Deleted: sha256:10cf4fba27ada4edf061bbd35e4d75c01314f2eaefb2a509a5847ad8a5e260f2
+Deleted: sha256:8c6189b1b34af89b73f821b2d8f3b43316cd10f30c4a904742b073c4919b05ab
+Deleted: sha256:2271fd2e9e34219ce65805a1d75876d63e0de59daad2c852ff673e42f40b4e90
+Deleted: sha256:9bb4aad205c41237d98197e551431aa049c3c144166046c98eb6d0aac4fe188e
+Deleted: sha256:0865ef04454052fb75dfb34c5c1c6a8db0d0b966902ed62d1bc6baf246335b29
+Deleted: sha256:87c772fddcb8b6d18932b4ff94f61332f964186c7e7f74d1c5c274cf57172790
+Deleted: sha256:5667cd1f2a1dd978524976f9015bf22e64e6ca4267d5c5b16fe96128cc6901fe
+Deleted: sha256:a5828c64a9c3f688fbdd1ae3419d8d381baf64c21b97cc493d4822cebb1f507a
+Deleted: sha256:7703ee2a9978362ce8c6a04e261743145a445ac94e69bc63eaa2383db864e543
+Deleted: sha256:f1b30ab9918326dc2f4c25f16c0e6c13e9a48427441ea41c0e4d8f3e6699da24
+Pulling nextcloud-db  ... 
+Pulling nextcloud-app ... 
+Pulling nextcloud-db  ... pulling from yobasystems/alpine-m...
+Pulling nextcloud-db  ... digest: sha256:585ac4b5efd4b53110...
+Pulling nextcloud-db  ... status: image is up to date for y...
+Pulling nextcloud-db  ... done
+Pulling nextcloud-app ... pulling from library/nextcloud
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... pulling fs layer
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... waiting
+Pulling nextcloud-app ... downloading (0.5%)
+Pulling nextcloud-app ... downloading (1.0%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (10.3%)
+Pulling nextcloud-app ... downloading (3.4%)
+Pulling nextcloud-app ... downloading (21.6%)
+Pulling nextcloud-app ... downloading (6.3%)
+Pulling nextcloud-app ... downloading (33.9%)
+Pulling nextcloud-app ... downloading (9.7%)
+Pulling nextcloud-app ... downloading (45.2%)
+Pulling nextcloud-app ... downloading (12.6%)
+Pulling nextcloud-app ... downloading (57.4%)
+Pulling nextcloud-app ... downloading (16.0%)
+Pulling nextcloud-app ... downloading (68.8%)
+Pulling nextcloud-app ... downloading (19.5%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (81.1%)
+Pulling nextcloud-app ... downloading (22.9%)
+Pulling nextcloud-app ... downloading (92.6%)
+Pulling nextcloud-app ... downloading (26.3%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (29.2%)
+Pulling nextcloud-app ... extracting (1.1%)
+Pulling nextcloud-app ... downloading (31.6%)
+Pulling nextcloud-app ... extracting (5.4%)
+Pulling nextcloud-app ... downloading (34.6%)
+Pulling nextcloud-app ... extracting (9.8%)
+Pulling nextcloud-app ... downloading (1.0%)
+Pulling nextcloud-app ... downloading (37.5%)
+Pulling nextcloud-app ... extracting (13.0%)
+Pulling nextcloud-app ... downloading (40.8%)
+Pulling nextcloud-app ... downloading (40.4%)
+Pulling nextcloud-app ... extracting (16.3%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (43.3%)
+Pulling nextcloud-app ... downloading (64.7%)
+Pulling nextcloud-app ... extracting (20.7%)
+Pulling nextcloud-app ... downloading (46.3%)
+Pulling nextcloud-app ... downloading (98.3%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (23.9%)
+Pulling nextcloud-app ... downloading (49.2%)
+Pulling nextcloud-app ... downloading (52.1%)
+Pulling nextcloud-app ... extracting (29.4%)
+Pulling nextcloud-app ... downloading (55.0%)
+Pulling nextcloud-app ... extracting (32.6%)
+Pulling nextcloud-app ... downloading (57.9%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (34.8%)
+Pulling nextcloud-app ... downloading (60.9%)
+Pulling nextcloud-app ... extracting (37.0%)
+Pulling nextcloud-app ... downloading (63.8%)
+Pulling nextcloud-app ... downloading (1.0%)
+Pulling nextcloud-app ... downloading (66.7%)
+Pulling nextcloud-app ... extracting (38.1%)
+Pulling nextcloud-app ... downloading (12.7%)
+Pulling nextcloud-app ... downloading (69.1%)
+Pulling nextcloud-app ... downloading (32.4%)
+Pulling nextcloud-app ... downloading (71.6%)
+Pulling nextcloud-app ... extracting (41.3%)
+Pulling nextcloud-app ... downloading (54.1%)
+Pulling nextcloud-app ... downloading (74.0%)
+Pulling nextcloud-app ... extracting (44.6%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (77.0%)
+Pulling nextcloud-app ... extracting (47.8%)
+Pulling nextcloud-app ... downloading (76.4%)
+Pulling nextcloud-app ... downloading (97.6%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (51.1%)
+Pulling nextcloud-app ... downloading (78.9%)
+Pulling nextcloud-app ... extracting (55.4%)
+Pulling nextcloud-app ... downloading (81.3%)
+Pulling nextcloud-app ... downloading (84.2%)
+Pulling nextcloud-app ... extracting (62.0%)
+Pulling nextcloud-app ... downloading (87.2%)
+Pulling nextcloud-app ... extracting (67.4%)
+Pulling nextcloud-app ... downloading (90.1%)
+Pulling nextcloud-app ... downloading (1.0%)
+Pulling nextcloud-app ... extracting (71.8%)
+Pulling nextcloud-app ... downloading (38.8%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (22.0%)
+Pulling nextcloud-app ... extracting (76.1%)
+Pulling nextcloud-app ... downloading (92.5%)
+Pulling nextcloud-app ... downloading (42.7%)
+Pulling nextcloud-app ... extracting (80.5%)
+Pulling nextcloud-app ... downloading (94.9%)
+Pulling nextcloud-app ... downloading (97.4%)
+Pulling nextcloud-app ... downloading (66.1%)
+Pulling nextcloud-app ... extracting (83.7%)
+Pulling nextcloud-app ... downloading (87.2%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (85.9%)
+Pulling nextcloud-app ... extracting (87.0%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (90.2%)
+Pulling nextcloud-app ... extracting (94.6%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (96.8%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (97.9%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... downloading (1.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... downloading (14.9%)
+Pulling nextcloud-app ... extracting (0.5%)
+Pulling nextcloud-app ... downloading (29.9%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (44.8%)
+Pulling nextcloud-app ... extracting (2.0%)
+Pulling nextcloud-app ... downloading (59.7%)
+Pulling nextcloud-app ... extracting (3.0%)
+Pulling nextcloud-app ... downloading (74.8%)
+Pulling nextcloud-app ... downloading (1.0%)
+Pulling nextcloud-app ... extracting (4.0%)
+Pulling nextcloud-app ... downloading (88.6%)
+Pulling nextcloud-app ... downloading (9.2%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (5.1%)
+Pulling nextcloud-app ... downloading (17.4%)
+Pulling nextcloud-app ... extracting (6.6%)
+Pulling nextcloud-app ... downloading (25.6%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (8.6%)
+Pulling nextcloud-app ... downloading (33.7%)
+Pulling nextcloud-app ... extracting (10.6%)
+Pulling nextcloud-app ... downloading (41.9%)
+Pulling nextcloud-app ... extracting (12.1%)
+Pulling nextcloud-app ... downloading (50.1%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (58.3%)
+Pulling nextcloud-app ... extracting (13.7%)
+Pulling nextcloud-app ... downloading (66.5%)
+Pulling nextcloud-app ... extracting (14.7%)
+Pulling nextcloud-app ... downloading (74.6%)
+Pulling nextcloud-app ... downloading (0.2%)
+Pulling nextcloud-app ... extracting (15.7%)
+Pulling nextcloud-app ... downloading (82.8%)
+Pulling nextcloud-app ... downloading (1.1%)
+Pulling nextcloud-app ... extracting (16.7%)
+Pulling nextcloud-app ... downloading (91.0%)
+Pulling nextcloud-app ... downloading (2.0%)
+Pulling nextcloud-app ... downloading (23.6%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (18.2%)
+Pulling nextcloud-app ... downloading (99.2%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (2.9%)
+Pulling nextcloud-app ... downloading (4.0%)
+Pulling nextcloud-app ... downloading (5.1%)
+Pulling nextcloud-app ... extracting (19.7%)
+Pulling nextcloud-app ... downloading (6.2%)
+Pulling nextcloud-app ... extracting (20.2%)
+Pulling nextcloud-app ... downloading (7.3%)
+Pulling nextcloud-app ... downloading (56.8%)
+Pulling nextcloud-app ... downloading (100.0%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... downloading (8.2%)
+Pulling nextcloud-app ... extracting (20.7%)
+Pulling nextcloud-app ... downloading (9.3%)
+Pulling nextcloud-app ... downloading (10.4%)
+Pulling nextcloud-app ... extracting (21.2%)
+Pulling nextcloud-app ... downloading (11.5%)
+Pulling nextcloud-app ... extracting (21.7%)
+Pulling nextcloud-app ... downloading (12.6%)
+Pulling nextcloud-app ... extracting (22.2%)
+Pulling nextcloud-app ... downloading (13.7%)
+Pulling nextcloud-app ... downloading (14.8%)
+Pulling nextcloud-app ... extracting (22.8%)
+Pulling nextcloud-app ... downloading (15.9%)
+Pulling nextcloud-app ... downloading (17.0%)
+Pulling nextcloud-app ... extracting (23.3%)
+Pulling nextcloud-app ... downloading (17.7%)
+Pulling nextcloud-app ... downloading (18.8%)
+Pulling nextcloud-app ... downloading (19.7%)
+Pulling nextcloud-app ... downloading (20.7%)
+Pulling nextcloud-app ... extracting (23.8%)
+Pulling nextcloud-app ... downloading (21.6%)
+Pulling nextcloud-app ... extracting (25.3%)
+Pulling nextcloud-app ... downloading (22.7%)
+Pulling nextcloud-app ... extracting (26.3%)
+Pulling nextcloud-app ... downloading (23.6%)
+Pulling nextcloud-app ... extracting (27.8%)
+Pulling nextcloud-app ... downloading (24.7%)
+Pulling nextcloud-app ... extracting (28.8%)
+Pulling nextcloud-app ... downloading (25.8%)
+Pulling nextcloud-app ... extracting (30.3%)
+Pulling nextcloud-app ... downloading (26.9%)
+Pulling nextcloud-app ... downloading (28.0%)
+Pulling nextcloud-app ... extracting (31.9%)
+Pulling nextcloud-app ... downloading (29.1%)
+Pulling nextcloud-app ... extracting (33.4%)
+Pulling nextcloud-app ... downloading (30.2%)
+Pulling nextcloud-app ... extracting (34.9%)
+Pulling nextcloud-app ... downloading (31.3%)
+Pulling nextcloud-app ... extracting (36.4%)
+Pulling nextcloud-app ... downloading (32.4%)
+Pulling nextcloud-app ... extracting (37.9%)
+Pulling nextcloud-app ... downloading (33.5%)
+Pulling nextcloud-app ... extracting (38.4%)
+Pulling nextcloud-app ... downloading (34.6%)
+Pulling nextcloud-app ... extracting (39.9%)
+Pulling nextcloud-app ... downloading (35.7%)
+Pulling nextcloud-app ... extracting (41.5%)
+Pulling nextcloud-app ... downloading (36.8%)
+Pulling nextcloud-app ... extracting (43.0%)
+Pulling nextcloud-app ... downloading (37.8%)
+Pulling nextcloud-app ... downloading (38.9%)
+Pulling nextcloud-app ... extracting (44.5%)
+Pulling nextcloud-app ... downloading (40.0%)
+Pulling nextcloud-app ... extracting (45.5%)
+Pulling nextcloud-app ... downloading (41.1%)
+Pulling nextcloud-app ... downloading (42.3%)
+Pulling nextcloud-app ... extracting (46.5%)
+Pulling nextcloud-app ... downloading (43.3%)
+Pulling nextcloud-app ... extracting (47.0%)
+Pulling nextcloud-app ... downloading (44.4%)
+Pulling nextcloud-app ... extracting (48.0%)
+Pulling nextcloud-app ... downloading (45.5%)
+Pulling nextcloud-app ... extracting (49.0%)
+Pulling nextcloud-app ... downloading (46.6%)
+Pulling nextcloud-app ... extracting (49.6%)
+Pulling nextcloud-app ... downloading (47.7%)
+Pulling nextcloud-app ... extracting (50.1%)
+Pulling nextcloud-app ... downloading (48.9%)
+Pulling nextcloud-app ... downloading (50.0%)
+Pulling nextcloud-app ... downloading (51.1%)
+Pulling nextcloud-app ... extracting (50.6%)
+Pulling nextcloud-app ... downloading (52.2%)
+Pulling nextcloud-app ... extracting (51.6%)
+Pulling nextcloud-app ... downloading (53.3%)
+Pulling nextcloud-app ... extracting (54.1%)
+Pulling nextcloud-app ... downloading (54.4%)
+Pulling nextcloud-app ... downloading (55.4%)
+Pulling nextcloud-app ... extracting (55.1%)
+Pulling nextcloud-app ... downloading (56.6%)
+Pulling nextcloud-app ... extracting (56.1%)
+Pulling nextcloud-app ... downloading (57.6%)
+Pulling nextcloud-app ... extracting (57.1%)
+Pulling nextcloud-app ... downloading (58.7%)
+Pulling nextcloud-app ... downloading (59.9%)
+Pulling nextcloud-app ... extracting (57.6%)
+Pulling nextcloud-app ... downloading (61.0%)
+Pulling nextcloud-app ... extracting (59.2%)
+Pulling nextcloud-app ... downloading (62.1%)
+Pulling nextcloud-app ... extracting (60.2%)
+Pulling nextcloud-app ... downloading (63.2%)
+Pulling nextcloud-app ... extracting (62.2%)
+Pulling nextcloud-app ... downloading (64.3%)
+Pulling nextcloud-app ... extracting (64.2%)
+Pulling nextcloud-app ... downloading (65.3%)
+Pulling nextcloud-app ... extracting (66.2%)
+Pulling nextcloud-app ... downloading (66.4%)
+Pulling nextcloud-app ... extracting (67.8%)
+Pulling nextcloud-app ... downloading (67.5%)
+Pulling nextcloud-app ... extracting (68.8%)
+Pulling nextcloud-app ... downloading (68.3%)
+Pulling nextcloud-app ... downloading (69.4%)
+Pulling nextcloud-app ... extracting (70.3%)
+Pulling nextcloud-app ... downloading (70.3%)
+Pulling nextcloud-app ... extracting (71.8%)
+Pulling nextcloud-app ... downloading (71.4%)
+Pulling nextcloud-app ... extracting (72.8%)
+Pulling nextcloud-app ... downloading (72.5%)
+Pulling nextcloud-app ... extracting (74.8%)
+Pulling nextcloud-app ... downloading (73.2%)
+Pulling nextcloud-app ... extracting (76.4%)
+Pulling nextcloud-app ... downloading (74.1%)
+Pulling nextcloud-app ... extracting (78.4%)
+Pulling nextcloud-app ... downloading (75.2%)
+Pulling nextcloud-app ... extracting (79.9%)
+Pulling nextcloud-app ... downloading (76.2%)
+Pulling nextcloud-app ... extracting (80.9%)
+Pulling nextcloud-app ... downloading (76.9%)
+Pulling nextcloud-app ... extracting (81.9%)
+Pulling nextcloud-app ... downloading (77.8%)
+Pulling nextcloud-app ... extracting (83.4%)
+Pulling nextcloud-app ... downloading (78.9%)
+Pulling nextcloud-app ... extracting (85.0%)
+Pulling nextcloud-app ... downloading (79.8%)
+Pulling nextcloud-app ... extracting (86.0%)
+Pulling nextcloud-app ... downloading (80.7%)
+Pulling nextcloud-app ... extracting (87.5%)
+Pulling nextcloud-app ... extracting (90.0%)
+Pulling nextcloud-app ... downloading (81.1%)
+Pulling nextcloud-app ... extracting (91.5%)
+Pulling nextcloud-app ... downloading (82.0%)
+Pulling nextcloud-app ... downloading (82.7%)
+Pulling nextcloud-app ... extracting (93.0%)
+Pulling nextcloud-app ... downloading (83.5%)
+Pulling nextcloud-app ... extracting (94.6%)
+Pulling nextcloud-app ... downloading (84.4%)
+Pulling nextcloud-app ... downloading (85.3%)
+Pulling nextcloud-app ... extracting (95.1%)
+Pulling nextcloud-app ... downloading (86.2%)
+Pulling nextcloud-app ... extracting (95.6%)
+Pulling nextcloud-app ... downloading (87.0%)
+Pulling nextcloud-app ... downloading (88.1%)
+Pulling nextcloud-app ... extracting (96.6%)
+Pulling nextcloud-app ... downloading (89.0%)
+Pulling nextcloud-app ... extracting (97.1%)
+Pulling nextcloud-app ... downloading (89.7%)
+Pulling nextcloud-app ... extracting (97.6%)
+Pulling nextcloud-app ... downloading (90.6%)
+Pulling nextcloud-app ... downloading (91.7%)
+Pulling nextcloud-app ... extracting (98.6%)
+Pulling nextcloud-app ... downloading (92.8%)
+Pulling nextcloud-app ... downloading (93.9%)
+Pulling nextcloud-app ... extracting (99.1%)
+Pulling nextcloud-app ... downloading (95.0%)
+Pulling nextcloud-app ... extracting (99.6%)
+Pulling nextcloud-app ... downloading (95.8%)
+Pulling nextcloud-app ... downloading (96.9%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... downloading (98.0%)
+Pulling nextcloud-app ... downloading (98.1%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... downloading (98.7%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (1.5%)
+Pulling nextcloud-app ... downloading (99.8%)
+Pulling nextcloud-app ... verifying checksum
+Pulling nextcloud-app ... download complete
+Pulling nextcloud-app ... extracting (4.6%)
+Pulling nextcloud-app ... extracting (21.3%)
+Pulling nextcloud-app ... extracting (53.3%)
+Pulling nextcloud-app ... extracting (67.0%)
+Pulling nextcloud-app ... extracting (86.8%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (1.0%)
+Pulling nextcloud-app ... extracting (5.1%)
+Pulling nextcloud-app ... extracting (39.0%)
+Pulling nextcloud-app ... extracting (72.9%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (1.1%)
+Pulling nextcloud-app ... extracting (3.4%)
+Pulling nextcloud-app ... extracting (19.0%)
+Pulling nextcloud-app ... extracting (30.2%)
+Pulling nextcloud-app ... extracting (32.4%)
+Pulling nextcloud-app ... extracting (43.6%)
+Pulling nextcloud-app ... extracting (60.3%)
+Pulling nextcloud-app ... extracting (68.2%)
+Pulling nextcloud-app ... extracting (72.6%)
+Pulling nextcloud-app ... extracting (80.5%)
+Pulling nextcloud-app ... extracting (84.9%)
+Pulling nextcloud-app ... extracting (90.5%)
+Pulling nextcloud-app ... extracting (98.3%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (1.2%)
+Pulling nextcloud-app ... extracting (9.3%)
+Pulling nextcloud-app ... extracting (12.8%)
+Pulling nextcloud-app ... extracting (16.3%)
+Pulling nextcloud-app ... extracting (25.6%)
+Pulling nextcloud-app ... extracting (32.6%)
+Pulling nextcloud-app ... extracting (43.1%)
+Pulling nextcloud-app ... extracting (53.6%)
+Pulling nextcloud-app ... extracting (62.9%)
+Pulling nextcloud-app ... extracting (72.2%)
+Pulling nextcloud-app ... extracting (81.6%)
+Pulling nextcloud-app ... extracting (85.1%)
+Pulling nextcloud-app ... extracting (88.6%)
+Pulling nextcloud-app ... extracting (96.7%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (1.1%)
+Pulling nextcloud-app ... extracting (7.5%)
+Pulling nextcloud-app ... extracting (9.6%)
+Pulling nextcloud-app ... extracting (12.8%)
+Pulling nextcloud-app ... extracting (16.1%)
+Pulling nextcloud-app ... extracting (21.4%)
+Pulling nextcloud-app ... extracting (26.8%)
+Pulling nextcloud-app ... extracting (32.1%)
+Pulling nextcloud-app ... extracting (38.5%)
+Pulling nextcloud-app ... extracting (43.9%)
+Pulling nextcloud-app ... extracting (48.2%)
+Pulling nextcloud-app ... extracting (52.5%)
+Pulling nextcloud-app ... extracting (57.8%)
+Pulling nextcloud-app ... extracting (63.2%)
+Pulling nextcloud-app ... extracting (67.5%)
+Pulling nextcloud-app ... extracting (71.7%)
+Pulling nextcloud-app ... extracting (74.9%)
+Pulling nextcloud-app ... extracting (77.1%)
+Pulling nextcloud-app ... extracting (79.2%)
+Pulling nextcloud-app ... extracting (82.4%)
+Pulling nextcloud-app ... extracting (85.7%)
+Pulling nextcloud-app ... extracting (87.8%)
+Pulling nextcloud-app ... extracting (91.0%)
+Pulling nextcloud-app ... extracting (95.3%)
+Pulling nextcloud-app ... extracting (98.5%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (0.2%)
+Pulling nextcloud-app ... extracting (0.4%)
+Pulling nextcloud-app ... extracting (0.6%)
+Pulling nextcloud-app ... extracting (0.8%)
+Pulling nextcloud-app ... extracting (1.1%)
+Pulling nextcloud-app ... extracting (1.5%)
+Pulling nextcloud-app ... extracting (1.9%)
+Pulling nextcloud-app ... extracting (2.3%)
+Pulling nextcloud-app ... extracting (2.5%)
+Pulling nextcloud-app ... extracting (2.9%)
+Pulling nextcloud-app ... extracting (3.2%)
+Pulling nextcloud-app ... extracting (3.6%)
+Pulling nextcloud-app ... extracting (4.0%)
+Pulling nextcloud-app ... extracting (4.6%)
+Pulling nextcloud-app ... extracting (4.9%)
+Pulling nextcloud-app ... extracting (5.5%)
+Pulling nextcloud-app ... extracting (5.9%)
+Pulling nextcloud-app ... extracting (6.1%)
+Pulling nextcloud-app ... extracting (6.3%)
+Pulling nextcloud-app ... extracting (6.5%)
+Pulling nextcloud-app ... extracting (6.7%)
+Pulling nextcloud-app ... extracting (6.8%)
+Pulling nextcloud-app ... extracting (7.2%)
+Pulling nextcloud-app ... extracting (7.6%)
+Pulling nextcloud-app ... extracting (8.0%)
+Pulling nextcloud-app ... extracting (8.4%)
+Pulling nextcloud-app ... extracting (8.6%)
+Pulling nextcloud-app ... extracting (8.9%)
+Pulling nextcloud-app ... extracting (9.3%)
+Pulling nextcloud-app ... extracting (9.7%)
+Pulling nextcloud-app ... extracting (10.1%)
+Pulling nextcloud-app ... extracting (10.3%)
+Pulling nextcloud-app ... extracting (10.5%)
+Pulling nextcloud-app ... extracting (11.4%)
+Pulling nextcloud-app ... extracting (12.5%)
+Pulling nextcloud-app ... extracting (12.9%)
+Pulling nextcloud-app ... extracting (13.1%)
+Pulling nextcloud-app ... extracting (13.3%)
+Pulling nextcloud-app ... extracting (13.7%)
+Pulling nextcloud-app ... extracting (13.9%)
+Pulling nextcloud-app ... extracting (14.4%)
+Pulling nextcloud-app ... extracting (14.8%)
+Pulling nextcloud-app ... extracting (15.0%)
+Pulling nextcloud-app ... extracting (15.2%)
+Pulling nextcloud-app ... extracting (15.6%)
+Pulling nextcloud-app ... extracting (16.0%)
+Pulling nextcloud-app ... extracting (16.3%)
+Pulling nextcloud-app ... extracting (16.7%)
+Pulling nextcloud-app ... extracting (17.1%)
+Pulling nextcloud-app ... extracting (17.7%)
+Pulling nextcloud-app ... extracting (18.1%)
+Pulling nextcloud-app ... extracting (18.4%)
+Pulling nextcloud-app ... extracting (18.8%)
+Pulling nextcloud-app ... extracting (19.2%)
+Pulling nextcloud-app ... extracting (19.6%)
+Pulling nextcloud-app ... extracting (20.0%)
+Pulling nextcloud-app ... extracting (20.3%)
+Pulling nextcloud-app ... extracting (20.7%)
+Pulling nextcloud-app ... extracting (21.1%)
+Pulling nextcloud-app ... extracting (21.5%)
+Pulling nextcloud-app ... extracting (21.9%)
+Pulling nextcloud-app ... extracting (22.2%)
+Pulling nextcloud-app ... extracting (22.6%)
+Pulling nextcloud-app ... extracting (23.0%)
+Pulling nextcloud-app ... extracting (23.4%)
+Pulling nextcloud-app ... extracting (23.8%)
+Pulling nextcloud-app ... extracting (24.1%)
+Pulling nextcloud-app ... extracting (24.5%)
+Pulling nextcloud-app ... extracting (24.9%)
+Pulling nextcloud-app ... extracting (25.3%)
+Pulling nextcloud-app ... extracting (25.7%)
+Pulling nextcloud-app ... extracting (26.0%)
+Pulling nextcloud-app ... extracting (26.4%)
+Pulling nextcloud-app ... extracting (26.8%)
+Pulling nextcloud-app ... extracting (27.2%)
+Pulling nextcloud-app ... extracting (27.6%)
+Pulling nextcloud-app ... extracting (27.9%)
+Pulling nextcloud-app ... extracting (28.3%)
+Pulling nextcloud-app ... extracting (28.7%)
+Pulling nextcloud-app ... extracting (28.9%)
+Pulling nextcloud-app ... extracting (29.5%)
+Pulling nextcloud-app ... extracting (29.8%)
+Pulling nextcloud-app ... extracting (30.2%)
+Pulling nextcloud-app ... extracting (30.4%)
+Pulling nextcloud-app ... extracting (30.6%)
+Pulling nextcloud-app ... extracting (30.8%)
+Pulling nextcloud-app ... extracting (31.2%)
+Pulling nextcloud-app ... extracting (31.6%)
+Pulling nextcloud-app ... extracting (31.7%)
+Pulling nextcloud-app ... extracting (32.5%)
+Pulling nextcloud-app ... extracting (32.9%)
+Pulling nextcloud-app ... extracting (33.3%)
+Pulling nextcloud-app ... extracting (33.6%)
+Pulling nextcloud-app ... extracting (34.0%)
+Pulling nextcloud-app ... extracting (34.4%)
+Pulling nextcloud-app ... extracting (34.8%)
+Pulling nextcloud-app ... extracting (35.0%)
+Pulling nextcloud-app ... extracting (35.4%)
+Pulling nextcloud-app ... extracting (36.5%)
+Pulling nextcloud-app ... extracting (38.0%)
+Pulling nextcloud-app ... extracting (38.8%)
+Pulling nextcloud-app ... extracting (40.1%)
+Pulling nextcloud-app ... extracting (41.4%)
+Pulling nextcloud-app ... extracting (41.6%)
+Pulling nextcloud-app ... extracting (42.0%)
+Pulling nextcloud-app ... extracting (42.4%)
+Pulling nextcloud-app ... extracting (42.6%)
+Pulling nextcloud-app ... extracting (42.8%)
+Pulling nextcloud-app ... extracting (43.2%)
+Pulling nextcloud-app ... extracting (43.5%)
+Pulling nextcloud-app ... extracting (43.9%)
+Pulling nextcloud-app ... extracting (44.1%)
+Pulling nextcloud-app ... extracting (44.3%)
+Pulling nextcloud-app ... extracting (45.6%)
+Pulling nextcloud-app ... extracting (47.0%)
+Pulling nextcloud-app ... extracting (48.1%)
+Pulling nextcloud-app ... extracting (49.0%)
+Pulling nextcloud-app ... extracting (50.2%)
+Pulling nextcloud-app ... extracting (51.3%)
+Pulling nextcloud-app ... extracting (51.7%)
+Pulling nextcloud-app ... extracting (52.7%)
+Pulling nextcloud-app ... extracting (54.0%)
+Pulling nextcloud-app ... extracting (55.1%)
+Pulling nextcloud-app ... extracting (56.5%)
+Pulling nextcloud-app ... extracting (57.6%)
+Pulling nextcloud-app ... extracting (58.9%)
+Pulling nextcloud-app ... extracting (60.1%)
+Pulling nextcloud-app ... extracting (61.2%)
+Pulling nextcloud-app ... extracting (62.4%)
+Pulling nextcloud-app ... extracting (63.1%)
+Pulling nextcloud-app ... extracting (63.9%)
+Pulling nextcloud-app ... extracting (64.6%)
+Pulling nextcloud-app ... extracting (65.6%)
+Pulling nextcloud-app ... extracting (66.5%)
+Pulling nextcloud-app ... extracting (67.5%)
+Pulling nextcloud-app ... extracting (68.2%)
+Pulling nextcloud-app ... extracting (69.2%)
+Pulling nextcloud-app ... extracting (70.1%)
+Pulling nextcloud-app ... extracting (71.1%)
+Pulling nextcloud-app ... extracting (71.9%)
+Pulling nextcloud-app ... extracting (72.0%)
+Pulling nextcloud-app ... extracting (72.4%)
+Pulling nextcloud-app ... extracting (73.6%)
+Pulling nextcloud-app ... extracting (75.1%)
+Pulling nextcloud-app ... extracting (76.6%)
+Pulling nextcloud-app ... extracting (78.1%)
+Pulling nextcloud-app ... extracting (79.7%)
+Pulling nextcloud-app ... extracting (81.0%)
+Pulling nextcloud-app ... extracting (82.3%)
+Pulling nextcloud-app ... extracting (83.6%)
+Pulling nextcloud-app ... extracting (85.0%)
+Pulling nextcloud-app ... extracting (86.3%)
+Pulling nextcloud-app ... extracting (87.6%)
+Pulling nextcloud-app ... extracting (89.2%)
+Pulling nextcloud-app ... extracting (90.7%)
+Pulling nextcloud-app ... extracting (91.6%)
+Pulling nextcloud-app ... extracting (92.0%)
+Pulling nextcloud-app ... extracting (92.4%)
+Pulling nextcloud-app ... extracting (92.8%)
+Pulling nextcloud-app ... extracting (93.1%)
+Pulling nextcloud-app ... extracting (93.5%)
+Pulling nextcloud-app ... extracting (94.1%)
+Pulling nextcloud-app ... extracting (94.5%)
+Pulling nextcloud-app ... extracting (95.1%)
+Pulling nextcloud-app ... extracting (95.4%)
+Pulling nextcloud-app ... extracting (95.8%)
+Pulling nextcloud-app ... extracting (96.2%)
+Pulling nextcloud-app ... extracting (96.6%)
+Pulling nextcloud-app ... extracting (97.0%)
+Pulling nextcloud-app ... extracting (97.3%)
+Pulling nextcloud-app ... extracting (97.7%)
+Pulling nextcloud-app ... extracting (98.3%)
+Pulling nextcloud-app ... extracting (98.9%)
+Pulling nextcloud-app ... extracting (99.2%)
+Pulling nextcloud-app ... extracting (99.6%)
+Pulling nextcloud-app ... extracting (99.8%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... extracting (100.0%)
+Pulling nextcloud-app ... pull complete
+Pulling nextcloud-app ... digest: sha256:87e88d110776a389a3...
+Pulling nextcloud-app ... status: downloaded newer image fo...
+Pulling nextcloud-app ... done
+Creating nextcloud-db ... 
+Creating nextcloud-db ... done
+Creating nextcloud-app ... 
+Creating nextcloud-app ... done

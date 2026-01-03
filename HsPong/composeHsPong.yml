@@ -1,0 +1,29 @@
+version: '3.3'
+
+services:
+  hspong:
+    build: .
+    image: "hs-pong"
+    ports:
+      - 9160:9160
+    restart: always
+    networks:
+      - expose
+    container_name: hsPong
+
+  webserver:
+    image: httpd:2.4-alpine
+    ports:
+      - 81:80
+    volumes:
+      - ./Frontend:/usr/local/apache2/htdocs/
+    restart: always
+    networks:
+      - expose
+    container_name: hsPongWeb
+
+
+networks:
+  expose:
+    name: expose
+    driver: bridge

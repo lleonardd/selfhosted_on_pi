@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+  tunnel:
+    container_name: cloudflared-tunnel
+    image: cloudflare/cloudflared
+    restart: unless-stopped
+    command: tunnel run
+    networks:
+      - expose
+    volumes:
+      - ./config.yml:/.cloudflared/config.yml
+    environment:
+      - TUNNEL_TOKEN=eyJhIjoiMTQ3OGE0MTg2YjliYTkzNDU2ZmZkMDc3MGY1ZjE5MmUiLCJ0IjoiMGJkZTBlYmItODQ2Yy00ZTk3LWFjYWItNzcxMjY3ZjJhMGRhIiwicyI6IlpEVTRNRGt4TVRBdFl6RTVNQzAwTVRjeUxUa3dZek10WldZMllqa3pPRFV6WlRndyJ9
+
+
+networks:
+  expose:
+    name: expose
+    driver: bridge

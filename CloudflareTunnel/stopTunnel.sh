@@ -1,0 +1,1 @@
+docker-compose -f composeTunnel.yml down
