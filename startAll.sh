@@ -3,3 +3,9 @@ cd CloudflareTunnel
 
 cd ../Nextcloud
 ./startCloud.sh
+
+cd ../pihole
+./startPihole.sh
+
+cd ../homeassistant
+./startHomeassistant.sh

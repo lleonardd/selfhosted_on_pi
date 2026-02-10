@@ -4,6 +4,9 @@ services:
   homeassistant:
     container_name: homeassistant
     image: ghcr.io/home-assistant/home-assistant:stable
+    depends_on:
+      - matter-server
+      - otbr
     volumes:
       - /mnt/raid1/homeassistant:/config # Config on RAID1
       - /etc/localtime:/etc/localtime:ro
