@@ -1,1 +1,1 @@
-docker-compose -f composeCloud.yml down
+docker compose -f composeCloud.yml down

@@ -10,8 +10,8 @@ echo "Updating Nextcloud..."
 echo "Updating Home Assistant..."
 /bin/sh /home/pi/services/homeassistant/updateHomeassistant.sh
 
-echo "Updating Pi-hole..."
-/bin/sh /home/pi/services/pihole/updatePihole.sh
+# echo "Updating Pi-hole..."
+# /bin/sh /home/pi/services/pihole/updatePihole.sh
 
 echo "Updating Cloudflare Tunnel..."
 /bin/sh /home/pi/services/CloudflareTunnel/updateTunnel.sh

@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   homeassistant:
     container_name: homeassistant
@@ -28,7 +26,7 @@ services:
     restart: unless-stopped
 
   otbr:
-    image: openthread/otbr:latest
+    image: openthread/border-router:latest # NOT openthread/otbr — that is a CI test image
     container_name: otbr
     network_mode: host
     privileged: true
@@ -36,12 +34,9 @@ services:
       - /dev/serial/by-id/usb-Itead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_V2_a21bfd3fddc2ef11879bedb08048b910-if00-port0:/dev/ttyUSB0 # Sonoff Zigbee 3.0 USB Dongle Plus V2
       - /dev/net/tun:/dev/net/tun # REQUIRED for virtual network interface
     volumes:
-      - /mnt/raid1/otbr:/var/lib/thread # Persistenz auf RAID
+      - /mnt/raid1/otbr:/data/thread # Persistenz auf RAID — NICHT /var/lib/thread, das legt das Image selbst als Symlink an
     environment:
-      - OTBR_REST_LISTEN_PORT=8081    # HA looks for this port
-      - WEB_GUI=0                      # Disable web UI
-      - AUTOFLASH_FIRMWARE=0           # Don't auto-flash firmware
-      - FLOW_CONTROL=0                 # No hardware flow control
-      - BACKBONE_IFNAME=eth0
-      - RADIO_URL=spinel+hdlc+uart:///dev/ttyUSB0?uart-baudrate=460800
+      - OT_RCP_DEVICE=spinel+hdlc+uart:///dev/ttyUSB0?uart-baudrate=460800 # ohne uart-flow-control, Firmware ist ein no-flow Build
+      - OT_INFRA_IF=eth0               # sonst wlan0
+      - OT_LOG_LEVEL=5                 # sonst 7, das flutet das Log
     restart: unless-stopped
