@@ -1,0 +1,9 @@
+# Cron output, regenerated on every run — was churning thousands of lines per commit
+*.log
+
+# NOTE: these three log files were already tracked before this rule existed, so
+# .gitignore does not affect them. Untrack with `git rm --cached <file>` if the
+# churn becomes annoying:
+#   Nextcloud/updateCloud.log
+#   StatusMails/dockerStatusEmail.log
+#   temperatureEmail/temp_warn_mail.log
