@@ -14,6 +14,7 @@ Structure overview:
 Top-level scripts:
 
 - `startAll.sh`, `stopAll.sh`, `restartAll.sh`, `updateAll.sh` — convenience scripts to manage all services
+- `updateSystem.sh` — weekly `apt update` + `apt full-upgrade`, run from cron right after `updateAll.sh`; its summary goes into the Sunday status mail
 
 How to use:
 

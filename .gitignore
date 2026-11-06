@@ -7,3 +7,6 @@
 #   Nextcloud/updateCloud.log
 #   StatusMails/dockerStatusEmail.log
 #   temperatureEmail/temp_warn_mail.log
+
+# Written by updateSystem.sh, read by StatusMails/docker_status_email.sh
+updateSystem.summary
